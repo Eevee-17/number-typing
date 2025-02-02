@@ -15,7 +15,7 @@ int main() {
 
 	loop = 1;
 	while(loop) {
-		randNum = rand() % (8 << (rand() % 13));
+		randNum = rand() % (8 << (rand() % 13)); // I added more randomness to this to vary the size of the numbers more
 		printf("%d\n", randNum);
 
 		scanf(" %d", &typedNum);
